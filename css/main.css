@@ -68,9 +68,7 @@ p {
   font-family: lexend deca, sans serif;
   font-weight: 400;
   font-size: 0.9rem;
-  /* letter-spacing: 0.5px; */
-
-  margin-bottom: 15px;
+  letter-spacing: 0.3px;
   line-height: 1.75;
   padding-top: 10px;
   margin-bottom: 25px;
@@ -152,4 +150,48 @@ p {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+/* desktop sizing 1440px */
+@media screen and (min-width: 1028px) {
+  .content-container {
+    width: 921px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    margin: 170px auto;
+  }
+  p {
+    font-size: 15px;
+    padding-right: 5px;
+    margin-bottom: 82px;
+    letter-spacing: 0px;
+    line-height: 1.7;
+  }
+  .btn {
+    padding: 11px 26px;
+  }
+  .sedan {
+    padding-top: 50px;
+    padding-left: 48px;
+    padding-right: 50px;
+
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 6px;
+  }
+
+  .suv {
+    padding-top: 50px;
+    padding-left: 46px;
+    padding-right: 47px;
+  }
+
+  .luxury {
+    padding-top: 50px;
+    padding-left: 44px;
+    padding-right: 45px;
+
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 6px;
+  }
 }
