@@ -96,6 +96,8 @@ p {
   margin: 90px auto;
   width: 326px;
   height: 1300px;
+  justify-content: center;
+  align-items: center;
 }
 
 .sedan {
