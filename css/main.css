@@ -39,6 +39,7 @@ body {
   min-height: 100vh;
   background-color: hsl(0, 0%, 95%);
   overflow-x: hidden;
+  margin: 0;
 }
 
 .content-wrapper {
